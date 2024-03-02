@@ -39,14 +39,14 @@ export const Education = () => {
                 <h2>Education</h2>
                 <p>From the foundational years in Junior High school to the challenging academics of Senior High school and the diverse perspectives of college, I've grown academically, developed valuable skills, and discovered my passion for Computer studies.</p>
                 <Tab.Container id="education-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Tab 1</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Tab 2</Nav.Link>
                     </Nav.Item>
-                  </Nav>
+                  </Nav> */}
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
